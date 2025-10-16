@@ -656,6 +656,13 @@ body.show-mobile-menu header::before{
 
 
 @media screen and (max-width: 640px) {
+    .navbar .nav-menu {
+        width: 200px;
+        position: fixed;
+        left: -200px;
+    }
+   
+    
       .menu-section .menu-list{
         gap: 60px;
     }
